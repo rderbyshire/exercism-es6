@@ -6,7 +6,7 @@ Use this repo if you would like to use ES6 and jest in your exercism ecmascript 
 
 Register at [exercism](http://exercism.io/)
 
-Clone this repo
+Fork this repo
 
 Create API_KET.txt and paste your [API_KEY](http://exercism.io/account/key)
 
