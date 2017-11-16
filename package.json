@@ -4,7 +4,7 @@
   "description": "Run exercism javascript exercises with all the EA6 features and jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest babel-jest --watchAll ecmascript",
+    "test": "eslint . --config ./.eslintrc && jest babel-jest --watchAll ecmascript",
     "setup": "./setup.sh",
     "fetch": "exercism fetch ecmascript",
     "submit": "./submit.sh"
@@ -18,6 +18,13 @@
   "devDependencies": {
     "babel-jest": "^21.2.0",
     "babel-preset-env": "^1.6.1",
+    "eslint": "^4.11.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.3.2",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
     "jest": "^21.2.1",
     "standard": "^10.0.3"
   }

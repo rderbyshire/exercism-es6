@@ -34,6 +34,8 @@ Add a specific exercise (list of available [ecmascript exercises](http://exercis
 npm run fetch exericse-name
 ```
 
+Delete the `package.json` (this will be automated) folder within the newly downloaded exercise
+
 Run tests
 ```
 npm test
