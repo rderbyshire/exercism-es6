@@ -4,9 +4,9 @@
   "description": "Run exercism javascript exercises with all the EA6 features and jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest babel-jest --watchAll",
+    "test": "jest babel-jest --watchAll ecmascript",
     "setup": "./setup.sh",
-    "fetch-javascript": "exercism fetch javascript",
+    "fetch": "exercism fetch ecmascript",
     "submit": "./submit.sh"
   },
   "keywords": [
