@@ -8,7 +8,7 @@ Register at [exercism](http://exercism.io/)
 
 Fork this repo
 
-Create API_KET.txt and paste your [API_KEY](http://exercism.io/account/key)
+Create API_KEY.txt and paste your [API_KEY](http://exercism.io/account/key)
 
 Run
 ```
